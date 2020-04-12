@@ -1,0 +1,17 @@
+@import "variables";
+
+@mixin hover-transition {
+  transition: .3s;
+}
+
+@mixin responsive($size) {
+  @if $size == large {
+    @media (min-width: $large) { @content; }
+  }
+  @if $size == medium {
+    @media (min-width: $medium) and (max-width: $large - 1px) { @content }
+  }
+  @if $size == small {
+    @media (max-width: $medium - 1) { @content }
+  }
+}
