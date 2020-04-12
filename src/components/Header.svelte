@@ -25,6 +25,7 @@
         right: 0;
         display: flex;
         justify-content: space-between;
+        z-index: 2;
 
         @include responsive(large) {
             padding: 40px;
