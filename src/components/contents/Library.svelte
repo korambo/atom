@@ -7,7 +7,7 @@
             title="Library will help<br> you to beeffective"
             desc="Don't waste your time on developing components,<br> you can use customizable and flexible UI KIT."
     >
-        <img class="gif" src="/images/library/gif_library.gif" alt="gif_library">
+        <img class="gif" src="/images/library/gif_library.gif" alt="gif_library" data-aos="zoom-in">
     </ContentSection>
 </section>
 

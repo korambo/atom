@@ -3,7 +3,8 @@ import resolve from '@rollup/plugin-node-resolve';
 import commonjs from '@rollup/plugin-commonjs';
 import livereload from 'rollup-plugin-livereload';
 import { terser } from 'rollup-plugin-terser';
-import { scss } from 'svelte-preprocess'
+import { scss } from 'svelte-preprocess';
+import css from 'rollup-plugin-css-only';
 import svg from 'rollup-plugin-svg-import';
 
 const production = !process.env.ROLLUP_WATCH;
@@ -29,6 +30,8 @@ export default {
 				scss({}),
 			],
 		}),
+
+		css({ output: 'public/build/native.css' }),
 
 		svg({ stringify: true }),
 

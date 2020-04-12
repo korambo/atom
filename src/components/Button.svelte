@@ -3,7 +3,7 @@
 
     export let text = '';
     export let url = '';
-    export let primary;
+    export let primary = false;
     export let type = 'normal';
 
     const classNames = cn({

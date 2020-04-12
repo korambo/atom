@@ -16,7 +16,7 @@
     >
         <div class="images">
             {#each images as img, index}
-                <img src={`/images/${img}`} alt={`illustrations-${index}`}>
+                <img src={`/images/${img}`} alt={`illustrations-${index}`} data-aos="zoom-in">
             {/each}
         </div>
     </ContentSection>

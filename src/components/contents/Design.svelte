@@ -4,10 +4,10 @@
 
 <section>
     <ContentSection
-            title="Design"
-            desc="Simple and light design for your ideas and creativity.<br> You can use UI Kit to create your own web pages and solutions."
+        title="Design"
+        desc="Simple and light design for your ideas and creativity.<br> You can use UI Kit to create your own web pages and solutions."
     >
-        <img src="/images/design/design.png" alt="design">
+        <img src="/images/design/design.png" alt="design" data-aos="zoom-in">
     </ContentSection>
 </section>
 

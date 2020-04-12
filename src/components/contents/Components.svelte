@@ -15,11 +15,11 @@
             desc="A huge symbols library for creating your own components.<br> There are all necessary components for even complex cases."
     >
 
-        <div class="gif">
+        <div class="gif" data-aos="zoom-in">
             <img src="/images/components/gif_components.gif" alt="components-gif">
         </div>
 
-        <div class="images">
+        <div class="images" data-aos="zoom-in">
             {#each images as img, index}
                 <img src={`/images/${img}`} alt={`components-${index}`}>
             {/each}

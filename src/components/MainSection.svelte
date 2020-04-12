@@ -4,7 +4,7 @@
 </script>
 
 <section>
-    <div class="content">
+    <div class="content" data-aos="fade-left">
         <div class="project_name">
             {@html ProjectName}
         </div>
@@ -36,8 +36,9 @@
         }
 
         @media (min-width: 493px) and (max-width: $medium - 1) {
+            width: 494px;
             background-position: top right;
-            margin-bottom: 40px;
+            margin: 0 auto 40px;
             padding: 30px 0 48px;
         }
 
@@ -61,7 +62,12 @@
         @include responsive(medium) {
             padding: 0 120px;
         }
-        @include responsive(small) {
+
+        @media (min-width: 493px) and (max-width: $medium - 1) {
+            padding: 0 85px;
+        }
+
+        @media (max-width: 492px) {
             padding: 0 20px;
         }
     }

@@ -6,13 +6,16 @@
     export let withoutPadding = false;
 </script>
 
-<div class="content">
+<div class="wrapper">
     <Row disable={withoutPadding}>
-        <div class="text">
+        <div class="text" data-aos="fade-up">
             <h3 class="title">{@html title}</h3>
             <p class="desc">{@html desc}</p>
         </div>
-        <slot />
+
+        <div class="content">
+            <slot />
+        </div>
     </Row>
 </div>
 
