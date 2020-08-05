@@ -50,7 +50,7 @@
             <div class="price_item">
                 <img src="/images/footer_buy2.svg" alt="full_version">
                 <div class="price_button">
-                    <Button text="BUY FULL FOR $99" type="full" url="https://gumroad.com/l/OcePo" />
+                    <Button text="BUY FULL FOR $49" type="full" id="buy-footer" />
                 </div>
             </div>
         </div>
@@ -297,3 +297,11 @@
         }
     }
 </style>
+
+<script type="text/javascript">
+    function openCheckout() {
+        Paddle.Checkout.open({ product: 596990 });
+    }
+    document.getElementById('buy').addEventListener('click', openCheckout, false);
+    document.getElementById('buy-footer').addEventListener('click', openCheckout, false);
+</script>

@@ -12,7 +12,7 @@
 
     <div class="buttons">
         <Button text="Preview" primary url="https://www.dropbox.com/sh/mdn4urz2a91jfz4/AADaqhWf4d6Oyutpbaxd2elBa?dl=0" />
-        <Button text="Download" url="https://gumroad.com/l/OcePo" />
+        <Button text="Purchase" id="buy">
     </div>
 </header>
 
@@ -48,3 +48,9 @@
         }
     }
 </style>
+
+<script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="d58fce8c-3191-4b3f-bdb3-769f6839e75f";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>
+    <script src="https://cdn.paddle.com/paddle/paddle.js"></script>
+    <script type="text/javascript">
+        Paddle.Setup({ vendor: 112127 });
+    </script>
