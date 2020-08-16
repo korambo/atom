@@ -36,11 +36,6 @@
             ]
         },
     ];
-    function openCheckout() {
-        Paddle.Checkout.open({ product: 596990 });
-    }
-    document.getElementById('buy').addEventListener('click', openCheckout, false);
-    document.getElementById('buy-footer').addEventListener('click', openCheckout, false);
 </script>
 
 <footer>
