@@ -4,10 +4,6 @@
     Paddle.Setup({ vendor: 112127 });
 </script>
 
-<svelte:head>
-    <script src="https://cdn.paddle.com/paddle/paddle.js"></script>
-</svelte:head>
-
 <header>
     <div class="logo">
         <a href="http://the18.design">
