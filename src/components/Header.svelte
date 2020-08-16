@@ -49,8 +49,8 @@
     }
 </style>
 
-<script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="d58fce8c-3191-4b3f-bdb3-769f6839e75f";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>
-    <script src="https://cdn.paddle.com/paddle/paddle.js"></script>
-    <script type="text/javascript">
-        Paddle.Setup({ vendor: 112127 });
-    </script>
+<script type="text/javascript">
+window.$crisp=[];window.CRISP_WEBSITE_ID="d58fce8c-3191-4b3f-bdb3-769f6839e75f";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();
+Paddle.Setup({ vendor: 112127 });
+</script>
+<script src="https://cdn.paddle.com/paddle/paddle.js"></script>
