@@ -3,6 +3,13 @@
     import Logo from './../_sources/icons/logo.svg';
 </script>
 
+<svelte:head>
+    <script type="text/javascript">
+    window.$crisp=[];window.CRISP_WEBSITE_ID="d58fce8c-3191-4b3f-bdb3-769f6839e75f";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();
+    </script>
+    <script src="https://cdn.paddle.com/paddle/paddle.js"></script>
+</svelte:head>
+
 <header>
     <div class="logo">
         <a href="http://the18.design">
