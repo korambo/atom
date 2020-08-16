@@ -3,6 +3,7 @@
 
     export let text = '';
     export let url = '';
+    export let id = '';
     export let primary = false;
     export let type = 'normal';
 
