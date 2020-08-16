@@ -12,7 +12,7 @@
 
     <div class="buttons">
         <Button text="Preview" primary url="https://www.dropbox.com/sh/mdn4urz2a91jfz4/AADaqhWf4d6Oyutpbaxd2elBa?dl=0" />
-        <Button text="Purchase" id="buy">
+        <Button text="Purchase" id="buy" />
     </div>
 </header>
 
