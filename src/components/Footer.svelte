@@ -50,7 +50,7 @@
             <div class="price_item">
                 <img src="/images/footer_buy2.svg" alt="full_version">
                 <div class="price_button">
-                    <Button text="BUY FULL FOR $49" type="full" id="buy-footer" />
+                    <Button text="BUY FULL FOR $49" type="full" />
                 </div>
             </div>
         </div>

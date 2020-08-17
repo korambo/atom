@@ -12,10 +12,16 @@
         'normal': type === 'normal',
         'full': type === 'full',
     });
+
+    const id = id({
+        'primary': primary,
+        'normal': type === 'normal',
+        'full': type === 'full',
+    });
 </script>
 
-<button class={classNames}>
-    <a href={url} target="_blank">{text}</a>
+<button class={classNames} id={id}>
+    <a href={url}>{text}</a>
 </button>
 
 <style lang="scss">
