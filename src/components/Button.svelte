@@ -3,7 +3,6 @@
 
     export let text = '';
     export let url = '';
-    export let id = '';
     export let primary = false;
     export let type = 'normal';
 
@@ -13,7 +12,7 @@
         'full': type === 'full',
     });
 
-    const id = id({
+    const identificator = id({
         'primary': primary,
         'normal': type === 'normal',
         'full': type === 'full',
