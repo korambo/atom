@@ -15,14 +15,14 @@
             title: 'Products',
             type: 'text',
             items: [
-                { title: 'UI Kit & Design System', url: 'http://the18.design' },
-                { title: 'Illustrations', url: 'http://the18.design' },
+                { title: 'UI Kit & Design System' },
+                { title: 'Illustrations' },
             ]
         }, {
             title: 'About',
             type: 'text',
             items: [
-                { title: 'License', url: 'http://the18.design' },
+                { title: 'License', url: 'https://the18.design/license' },
                 { title: 'Contact Us', url: 'mailto:the18.design@gmail.com' },
             ]
         }, {
@@ -30,7 +30,7 @@
             type: 'button',
             items: [
                 { img: SocialBe, url: 'https://www.behance.net/The18design' },
-                { img: SocialDr, url: 'https://dribbble.com/search/the18design' },
+                { img: SocialDr, url: 'https://dribbble.com/18Design_Co' },
                 { img: SocialIn, url: 'https://www.instagram.com/the18.design' },
                 { img: SocialFb, url: 'https://www.facebook.com/the18.design' },
             ]
@@ -73,7 +73,7 @@
                     <ul class={cn({ links_list_column: linkBlock.type === 'text' })}>
                         {#each linkBlock.items as link}
                             <li>
-                                <a href={link.url} target="_blank">
+                                <a class={cn({ disabled: !link.url })} href={link.url} target="_blank">
                                     {#if linkBlock.type === 'text'}
                                         {link.title}
                                     {:else}
@@ -279,6 +279,15 @@
             &:hover {
                 color: $text-color2;
             }
+        }
+
+        a.disabled {
+          opacity: .4;
+          cursor: default;
+
+          &:hover {
+            color: $text-color4;
+          }
         }
 
         &_img {
